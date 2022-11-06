@@ -40,10 +40,10 @@ while (True):
             print("desea agregar otro dato?")
             res = input()
             if(res == 'no'):
-                print("cola_raza:",raza)
-                print("cola_tamaño:",tamaño)
-                print("cola_edad:",edad)
-                print("cola_sexo:",sexo)
+                #print("cola_raza:",raza)
+                #print("cola_tamaño:",tamaño)
+                #print("cola_edad:",edad)
+                #print("cola_sexo:",sexo)
                 break
     elif opcion == 2:
             while len(raza)>0 and len(tamaño)>0 and len(edad)>0 and len(sexo)>0:
